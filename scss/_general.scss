@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", "Arial", "sans-serif";
+  background-color: #e3eeed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: rgb(250, 216, 25);
+  &:hover {
+    color: #9da009;
+  }
+}
